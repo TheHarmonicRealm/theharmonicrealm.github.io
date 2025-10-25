@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  background-color: #dbe6ff;
+  scrollbar-gutter: stable both-edges;
+  background-image: url("/assets/images/background_pattern.svg");
+  background-size: 150px;
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+body {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  max-width: 900px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-color: #f2f7f4;
+  font-family: "IM Fell French Canon", "Georgia", "Times New Roman", serif;
+}
+
+p {
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Libre Franklin", "Franklin Gothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+a {
+  text-decoration-color: #bdbdbd;
+  text-decoration-thickness: 2px;
+  color: #1d57d5;
+}
+
+a:visited, a:active {
+  color: #042e88;
+}
+
+a:hover, .homelink:hover {
+  color: #5d89e9;
+}
+
+.footer {
+  font-size: 0.9em;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.6666666667);
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+@media screen and (width <= 900px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (width <= 930px) {
+  html {
+    background-color: #f2f7f4;
+  }
+}
+.libre-franklin {
+  font-family: "Libre Franklin", "Franklin Gothic", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
